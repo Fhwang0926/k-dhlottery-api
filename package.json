@@ -1,6 +1,6 @@
 {
-  "name": "dhapi",
-  "version": "1.0.0",
+  "name": "k-dhapi",
+  "version": "0.1.0",
   "description": "동행복권 비공식 API (Node.js)",
   "main": "dist/index.js",
   "bin": {
@@ -29,7 +29,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/roeniss/dhlottery-api"
+    "url": "git+https://github.com/roeniss/dhlottery-api.git"
   },
   "bugs": {
     "url": "https://github.com/roeniss/dhlottery-api/issues"

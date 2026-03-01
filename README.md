@@ -12,12 +12,14 @@
 ### npm 패키지로 설치 (배포 후)
 
 ```bash
-npm install -g dhapi
+npm install -g k-dhapi
 # 또는
-npx dhapi --help
+npx k-dhapi --help
 
 dhapi buy-lotto645 -y
 ```
+
+설치 후 실행 명령어는 `dhapi`입니다 (패키지 이름은 `k-dhapi`).
 
 ### 소스에서 설치
 
@@ -142,7 +144,7 @@ PORT=4000 npm run server
 이 프로젝트를 npm에 배포하려면:
 
 1. [npmjs.com](https://www.npmjs.com/) 회원가입 후 `npm login`
-2. 패키지 이름 확인: `dhapi`가 이미 사용 중이면 `package.json`의 `name`을 스코프 패키지로 변경 (예: `@내계정/dhapi`)
+2. 패키지 이름: 이 프로젝트는 npm에서 이미 사용 중인 `dhapi`와 구분하기 위해 `k-dhapi`로 배포합니다. 스코프 패키지(예: `@내계정/dhapi`)로 쓰려면 `name`을 변경하면 됩니다.
 3. 버전 업데이트 후 배포:
 
 ```bash
