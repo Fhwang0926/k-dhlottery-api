@@ -1,6 +1,6 @@
 {
-  "name": "k-dhapi",
-  "version": "0.1.0",
+  "name": "k-dhlottery-api",
+  "version": "0.2.3",
   "description": "동행복권 비공식 API (Node.js)",
   "main": "dist/index.js",
   "bin": {
